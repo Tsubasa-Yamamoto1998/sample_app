@@ -154,7 +154,7 @@ GEM
     method_source (1.1.0)
     mini_mime (1.1.5)
     mini_portile2 (2.8.8)
-    minitest (5.18.0)
+    minitest (5.25.5)
     minitest-reporters (1.6.0)
       ansi
       builder
@@ -360,7 +360,7 @@ DEPENDENCIES
   importmap-rails (= 1.1.5)
   irb (= 1.10.0)
   jbuilder (= 2.11.5)
-  minitest (= 5.18.0)
+  minitest (= 5.25.5)
   minitest-reporters (= 1.6.0)
   mutex_m
   prism (~> 1.0)
