@@ -18,6 +18,7 @@ gem 'prism', '~> 1.0'
 gem 'mutex_m'
 gem 'bigdecimal'
 gem 'tzinfo-data'
+gem 'drb', '~> 2.2', '>= 2.2.1'
 
 group :development, :test do
   gem 'reline', '0.5.10'
