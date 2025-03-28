@@ -22,7 +22,7 @@ gem 'tzinfo-data'
 gem 'drb', '~> 2.2', '>= 2.2.1'
 
 group :development, :test do
-  gem 'reline', '0.5.10'
+  gem 'reline', '0.6.0'
   gem "debug",   "1.7.1", platforms: %i[ mri mingw x64_mingw ]
 end
 
