@@ -35,6 +35,9 @@ group :development do
   gem "repl_type_completor", ">=0.1.2"
   gem 'pry'
   gem 'pry-rails'
+  gem 'rubocop'
+  gem 'rubocop-rails'
+  gem 'rubocop-rails-omakase'
 end
 
 group :test do
