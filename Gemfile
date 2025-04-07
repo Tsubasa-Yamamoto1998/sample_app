@@ -16,15 +16,15 @@ gem "puma",            "5.6.8"
 gem "bootsnap",        "1.16.0", require: false
 gem "sqlite3",         "1.6.1"
 gem "concurrent-ruby", "1.3.4"
-gem 'prism', '~> 1.0'
-gem 'mutex_m'
-gem 'bigdecimal'
-gem 'tzinfo-data'
-gem 'drb', '~> 2.2', '>= 2.2.1'
+gem "prism", "~> 1.0"
+gem "mutex_m"
+gem "bigdecimal"
+gem "tzinfo-data"
+gem "drb", "~> 2.2", ">= 2.2.1"
 # gem 'rb-readline'
 
 group :development, :test do
-  gem 'reline', '0.5.10'
+  gem "reline", "0.5.10"
   gem "debug",   "1.7.1", platforms: %i[ mingw x64_mingw ]
 end
 
@@ -33,11 +33,11 @@ group :development do
   gem "solargraph",          "0.51.1"
   gem "irb",                 "1.10.0"
   gem "repl_type_completor", ">=0.1.2"
-  gem 'pry'
-  gem 'pry-rails'
-  gem 'rubocop'
-  gem 'rubocop-rails'
-  gem 'rubocop-rails-omakase'
+  gem "pry"
+  gem "pry-rails"
+  gem "rubocop"
+  gem "rubocop-rails"
+  gem "rubocop-rails-omakase"
 end
 
 group :test do
