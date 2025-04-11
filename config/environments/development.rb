@@ -34,6 +34,13 @@ Rails.application.configure do
   # Don't care if the mailer can't send.
   config.action_mailer.raise_delivery_errors = false
 
+
+  # rails tutorialからの手書き内容
+  host = "localhost:3000"                     # ローカル環境のホスト名
+  config.action_mailer.default_url_options = { host: host, protocol: "http" }
+  config.action_mailer.delivery_method = :test
+  config.action_mailer.default_url_options = { host: "example.com" }
+
   # Make template changes take effect immediately.
   config.action_mailer.perform_caching = false
 
