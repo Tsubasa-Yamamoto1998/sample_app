@@ -6,3 +6,4 @@
 //= link controllers/hello_controller.js
 //= link controllers/index.js
 //= link custom/menu.js
+//= link custom/image_upload.js
